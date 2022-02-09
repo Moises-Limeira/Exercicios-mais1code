@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+}
+.pesquisa{
+    background: #FFFFFF;
+    position: absolute;
+    text-align: center;
+    color: #7B7B7B;
+    top: 40px;
+    width: 320px;
+    height: 50px;
+    left: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-around;    
+}
+
+h1{
+    position: absolute;
+    color: #FFFFFF;
+    width: 223px;
+    height: 90px;
+    left: 40px;
+    top: 216px;
+}
+
+.fundo{
+    background: #E5E5E5;
+    width: 400px;
+    margin-top: -5px;
+}
+
+.paisagem{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 61px;
+    gap: 20px;
+}
+
+.texto{
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    left: 40px;
+    margin-top: -1px;
+}
+
+.fundo-footer{
+    background: #222222;
+    width: 400px;
+    margin-top: -20px;
+}
+
+h2{
+    color: #FFFFFF;
+    padding-top: 16px;
+    padding-left: 40px;
+}
+
+.lista{
+    list-style: none;
+    color: #FFFFFF;
+}
