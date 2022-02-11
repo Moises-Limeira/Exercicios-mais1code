@@ -45,7 +45,7 @@ h1{
 }
 
 P{
-    margin-top: 30px;
+    margin-top: 50px;
     margin-right: 63px;
     font-size: 16px;
     line-height: 21px;
@@ -65,11 +65,13 @@ P{
     gap: 25px;
     width: 194px;
     height: 48px;
-    left: 420px;
-    top: 200px;
     margin-top: 20px;
     margin-bottom: 31px;
     border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    
+    
     
 }
 
@@ -89,27 +91,30 @@ P{
     border-top-style:#F6F7F9;
     border: width 50px;
     color: #67737E;
-    margin-top: 36px;
+    margin-top: 15px;
     font-size: 14px;
     line-height: 16px; 
+    
+    
 
 }
-
 .sub-texto, .sub-texto2{
     display: flex;
-    align-items: center;
-    gap: 3px;
-}
-.seta{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-.none {
-    display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 	list-style-type: none;
     padding-left: 1px;
     gap: 10px;
     margin-top: 10px;
+}
+
+li{
+    display: flex;
+    gap: 5px;
+}
+
+.linha{
+    border-bottom:5px solid #F6F7F9;
+    margin-top: 15px;
+    width: 240px;
+    height: 2px;
 }

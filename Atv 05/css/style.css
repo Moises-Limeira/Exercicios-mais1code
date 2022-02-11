@@ -8,15 +8,10 @@ body{
     margin-top: -350px; 
     margin-bottom: 50px;
     border-radius: 20px;
-    
 
-    
 }
 .inicio{
-    
     display: flex;
-    
-    
 }
 
 .texto{
@@ -33,12 +28,7 @@ body{
 .textto-medio{
     display: flex;
     justify-content: center;
-    color: #c0c7d1;
-    
-
-    
-    
-    
+    color: #c0c7d1;    
 }
 .plano{
     background: #f8f9fe;
