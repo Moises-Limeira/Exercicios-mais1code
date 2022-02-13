@@ -1,70 +1,91 @@
-body{
+body {
     margin: 0px;
 }
-.conteudo{
+
+.conteudo {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: -350px; 
+    margin-top: -900px;
+    margin-right: 400px;
     margin-bottom: 50px;
-    border-radius: 20px;
 }
-.inicio{
+
+.inicio {
     display: flex;
 }
 
-.texto{
+.texto {
     background: white;
-    height: auto;
-    width: 450px;     
+    height: 380px;
+    width: 450px;
+    border-radius: 0px 0px 20px 20px;
 }
-.texto-maior{
-    display: flex;
-    justify-content: center;  
-}
-.textto-medio{
+
+.texto-maior {
     display: flex;
     justify-content: center;
-    color: #c0c7d1;    
 }
-.plano{
+
+.texto-medio {
+    display: flex;
+    justify-content: center;
+    color: #c0c7d1;
+}
+
+.plano {
     background: #f8f9fe;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 70px;
-    margin-right: 70px; 
-    gap: 30px;
-    margin-bottom: 25px; 
+    margin-right: 70px;
+    gap: 10px;
+    margin-bottom: 25px;
     border-radius: 10px;
 }
 
-.texto-maior2{
+a {
+    margin-left: 50px;
+}
+
+.texto-maior2 {
     margin-bottom: -10%;
     font-size: 16px;
-    
 }
-.textto-medio2{
+
+.texto-medio2 {
     color: #c0c7d1;
-    
 }
-.botao{
+
+.botao {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.botao1{
+.botao1 {
     background-color: #382ae1;
     color: white;
     padding: 15px;
     margin-left: 70px;
     margin-right: 70px;
-    border: none; 
+    border: none;
     box-shadow: 1px 15px 10px #e1defb;
-    border-radius: 10px 
+    border-radius: 10px
 }
-.botao2{
+
+.botao2 {
     background: none;
     border: none;
+}
+
+img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.fundo-da-pagina {
+    background: #e0e8ff;
+    max-width: 1440px;
+    max-height: 1000px;
 }
