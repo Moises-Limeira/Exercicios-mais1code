@@ -1,7 +1,8 @@
-body{
+body {
     margin: 0px;
 }
-.pesquisa{
+
+.pesquisa {
     background: #FFFFFF;
     position: absolute;
     text-align: center;
@@ -14,10 +15,11 @@ body{
     display: flex;
     align-items: center;
     gap: 100px;
-    justify-content: space-around;    
+    justify-content: space-around;
 }
 
-h1{
+h1 {
+    font-family: Roboto;
     position: absolute;
     color: #FFFFFF;
     width: 223px;
@@ -26,13 +28,13 @@ h1{
     top: 216px;
 }
 
-.fundo{
+.fundo {
     background: #E5E5E5;
     width: 400px;
     margin-top: -5px;
 }
 
-.paisagem{
+.paisagem {
     display: flex;
     padding-top: 40px;
     padding-left: 40px;
@@ -40,7 +42,7 @@ h1{
     gap: 20px;
 }
 
-.texto{
+.texto {
     background: #FFFFFF;
     display: flex;
     justify-content: space-around;
@@ -51,19 +53,34 @@ h1{
     margin-top: -1px;
 }
 
-.fundo-footer{
+.fundo-footer {
     background: #222222;
     width: 400px;
     margin-top: -20px;
 }
 
-h2{
+h2 {
+    font-family: Roboto;
     color: #FFFFFF;
     padding-top: 16px;
     padding-left: 40px;
 }
 
-.lista{
-    list-style: none;
-    color: #FFFFFF;
+.lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid #404040;
+    padding-bottom: 20px;
+}
+
+a {
+    color: #BBBBBB;
+    border-left: 5px solid #404040;
+    padding-left: 10px;
+
+}
+
+ul {
+    list-style-type: none;
+
 }
